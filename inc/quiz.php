@@ -31,7 +31,7 @@ if (empty($page)) {
 // Show random question
 // Shuffle answer buttons
 if (!isset($_SESSION['score'])) {
-    $_SESSION['score'] = 1;
+    $_SESSION['score'] = 0;
 }
 
 function quiz() {
