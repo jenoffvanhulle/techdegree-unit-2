@@ -66,6 +66,7 @@ function quiz() {
 // If all questions have been asked, give option to show score
 // else give option to move to next question
 if ($page > $total) {
+    checkAnswer();
     header('location: score.php');
     exit;
 }
